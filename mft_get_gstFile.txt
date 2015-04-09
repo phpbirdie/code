@@ -1,0 +1,6 @@
+set compressions=zlib
+binary
+lcd E:\PGE\GST\Tectia_FTP\UTNS
+cd utns
+get --prefix=INCOMPLETE. TI{todayDate}.TXT
+quit
